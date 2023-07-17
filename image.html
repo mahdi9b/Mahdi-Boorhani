@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .m{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(8, 43, 141,0),rgba(121, 21, 21,0.9));
+       
+    }
+    #a{
+        opacity: 0;
+        transition: all ease 1s;
+        position: absolute;
+        
+    }
+    #a:hover{
+        opacity: 1;
+    }
+    #b{
+        background-image: url('/img.jpg');
+        background-size: cover;
+        background-position: center;
+        width:1200px;
+        height: 1200px;
+        position: relative;
+    }
+    #c{
+        width: 40%;
+        height: 40%;
+        border-right: 10px solid darkblue;
+        border-top: 10px solid darkblue;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    #d{
+        width: 40%;
+        height: 40%;
+        border-left: 10px solid darkblue;
+        border-bottom: 10px solid darkblue;
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+    }
+    #fit{
+        position: fixed;
+        width: 1000px;
+        height: 1000px;
+        right: 0px;
+        top: 0px;
+        background-color: red;
+    }
+</style>
+<body>
+    <div id="b">
+        <div id="a" class="m">
+            <div id="c"></div>
+            <div id="d"></div>
+        </div>
+    </div>
+    <div id="fit">
+
+    </div>
+
+</body>
+</html>

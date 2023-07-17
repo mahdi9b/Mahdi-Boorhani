@@ -1,0 +1,10 @@
+.A{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    transition: all ease 1s;
+}
+.A:hover{
+    opacity: 0;
+}
