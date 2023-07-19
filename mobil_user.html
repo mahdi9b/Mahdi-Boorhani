@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="materialize/css/width.css">
     <link rel="stylesheet" href="util/util.css">
     <link rel="stylesheet" href="mobil.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <!-- navbar___________>start<________________ -->
+      <!-- navbar___________>start<________________ -->
     <nav class="white z-depth-0">
         <div class="nav-wrapper ">
-          <a href="#!" class="brand-logo blue-text"><img src="img/png.png" class="max-w-150"></a>
+          <a href="#!" class="brand-logo ">
+            <img src="img/png.png" class="max-w-50">
+          </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="https://codeyad.com"" class="blue-text">codeyad1</a></li>
@@ -24,6 +27,7 @@
           </ul>
         </div>
       </nav>
+      
     
       <ul class="sidenav" id="mobile-demo">
         <li><div class="user-view">
@@ -42,17 +46,22 @@
           <li><a class="waves-effect" href="https://materializecss.com">materializecss</a></li>
       </ul>
       <!-- navbar___________>end<________________ -->
+    <section class="row" >
+      <div class="p-l-10 p-r-10 p-t-10 col s12 m2 l2 "id="bt" >
+        <button class="waves-effect  rounded_pill flex-1 blue w-full btn p-l-30 p-r-30 ">
+          <i class="material-icons m-r-1 pos-relative top-5">add</i>
+          add User
+        </button>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m8 l8">
+          <input id="search" type="text" class="validate">
+          <label for="search">
+            <i class="material-icons m-r-1 pos-relative top-5 ">search</i>search</label>
+        </div>
+      </div>
+      <div class="col m2 l2"></div>
+    </section>
 
-      <!-- home page___________>start<________________ -->
-      <section class="fix">
-        <img src="img/png.png" alt="" class="w-full max-w-600">
-        <a class="waves-effect waves-light btn m-b-10 w-full max-w-350 h-full rounded_pill">button</a>
-        <a href="mobil_user.html" class="waves-effect waves-light btn w-full max-w-350 h-full rounded_pill">user</a>
-      </section>
-    <!-- home page___________>end<________________ -->  
-  <script src="mobil.js"></script>
-  <script src="materialize/js/materialize.js"></script>
-  <script src="materialize/js/materialize.min.js"></script>
-       
 </body>
 </html>
