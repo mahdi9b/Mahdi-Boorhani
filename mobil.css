@@ -9,4 +9,17 @@
         top: 30px;
     }
 }
-
+.flex-m{
+    justify-content: center  !important;
+}
+.item.active .icon{
+    transform: rotate(180deg);
+}
+.bet{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center ;
+}
+.container{
+    width: 100% !important;
+}
