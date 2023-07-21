@@ -50,7 +50,7 @@
         <!-- add btn________________________________start______________________________add btn -->
     <section class="row" >
       <div class="p-l-10 p-r-10 p-t-10 col s12 m2 l2 "id="bt" >
-        <button class="waves-effect  rounded_pill flex-1 blue w-full btn p-l-30 p-r-30 flex-m">
+        <button id="btn" class=" rounded_pill flex-1 blue w-full btn p-l-30 p-r-30 flex-m btn">
           <i class="material-icons m-r-1 ">add</i>
           <p class="hide-on-med-only ">add User</p>
         </button>
@@ -216,6 +216,34 @@
       </span>
     </div>
   </div>
+  <!-- add_user__________________________________________________start____________________________add_user -->
+  <!-- back__________________________________________start________________________________back -->
+  <div class="back dis-none back_user_btn"></div>
+  <!-- back__________________________________________End________________________________back -->
+  <!-- buttom___________________________________End________________________________________________buttom -->
+  <div class="container z-depth-2 p-all-5 user_add white rounded_top_30  row Add_user_btn p-l-40 p-r-40 center" >
+    <div >
+      <h5 class="center"><i class="material-icons m-r-13 blue-text pos-relative top-3">person_add</i><span class="blue-text">User add</span></h5>
+      <form>
+        <div class="input-field  col s12">
+          <label for="name " >Name</label>
+          <input type="text" class="validate" id="name">
+        </div>
+        <div class="input-field  col s12">
+          <label for="Email " >Email</label>
+          <input type="email" class="validate" id="email">
+        </div>
+        <div class="input-field  col s12">
+          <label for="Phone" >Phone number</label>
+          <input type="text" class="validate" id="name">
+        </div>
+        <div>
+          <input  type="submit" class="btn blue rounded_pill w-full max-w-350 container max-h-40 z-depth-2">
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- add_user__________________________________________________start____________________________add_user -->
 
   <script src="mobil_user.js"></script>
   <script src="materialize/js/materialize.js"></script>
