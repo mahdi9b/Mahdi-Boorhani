@@ -1,0 +1,387 @@
+@font-face {
+    font-family: Mahdi;
+    src: url(../font/Vazir-Thin.ttf);
+}
+*{
+    font-family: Mahdi;
+    box-sizing: border-box;
+}
+.navbar{
+width: 100%;
+    height:10%;
+    position: relative;
+    top: 0;
+    margin: 0;
+}
+.navbar_2{
+    width: 100%;
+    height:8%;
+    position: relative;
+    background-color: gray;
+    
+}
+.icon{
+    width: 9.5cqh;
+}
+.menu{
+    position: absolute;
+    top: 1.2rem;
+    right: 6rem;
+    font-size: 2rem;
+}
+.menu2{
+    position: absolute;
+    top: 1.2rem;
+    right: 30rem;
+
+}
+.menu_icon_2{
+    width: 3cqb;
+    position: absolute;
+    top: 0.6rem;
+    right: 2.5rem;
+    transition: all 1s ease;
+
+}
+.menu_icon_2_2{
+    width: 3cqb;
+    position: absolute;
+    top: 2.5rem;
+    right: 7rem;
+    transition: all 1s ease;
+
+}
+.menu_menu{
+    position: absolute;
+    left: 5rem;
+
+}
+.menu_icon{
+    font-size: 2rem !important;
+}
+.menu_icon_2:hover{
+    transform: rotatey(180deg);
+}
+.menu_icon_2_2:hover{
+    transform: rotatey(180deg);
+}
+.menu_text_2{
+    font-size: 1.7rem;
+}
+
+.menu3{
+    position: absolute;
+    top: 1.4rem;
+    right: 40rem;
+}
+.menu_icon_3{
+    width: 4cqb;
+    position: absolute;
+    top: 0.2rem;
+    right: 9rem;
+    transition: all 1s ease;
+
+}
+.menu_icon_3_3{
+    width: 4cqb;
+    position: absolute;
+    top: 5.3rem;
+    right: 10.8rem;
+    transition: all 1s ease;
+
+}
+.menu_text_3{
+    font-size: 1.5rem;
+}
+.menu_icon_3:hover{
+    transform: rotatey(180deg);
+}
+.menu_icon_3_3:hover{
+    transform: rotatey(180deg);
+}
+
+.menu4{
+    position: absolute;
+    top: 1.4rem;
+    right: 57rem;
+    font-size: 1.5rem;
+}
+.menu_text_4{
+    font-size: 1.5rem;
+}
+.menu_icon_4{
+    width: 3.5cqb;
+    position: absolute;
+    top: 0.2rem;
+    right: 7rem;
+    transition: all 1s ease;
+}
+.menu_icon_4_4{
+    width: 3cqb;
+    position: absolute;
+    top: 9rem;
+    right: 9.8rem;
+    transition: all 1s ease;
+}
+.menu_icon_4:hover{
+    transform: rotatey(180deg);
+}
+.menu_icon_4_4:hover{
+    transform: rotatey(180deg);
+}
+.a_c{
+    color: black;
+}
+.menu_btn{
+    position: absolute;
+    top: 1.4rem;
+    left: 5rem;
+    width: 7rem;
+    border-radius: 1.6rem !important;
+
+    background-color: white !important;
+}
+.search_box{
+    width: 60rem;
+    height: 1rem;
+    position: absolute;
+    left: 10rem;
+    bottom: 0.5rem;
+}
+.search_icon{
+    position: relative;
+    bottom: -0.4rem;
+}
+.button1{
+    border-radius:  15px !important;
+    float: right;
+    
+    margin: 12px;
+
+}
+.button2{
+    border-radius:  15px !important;
+    float: right;
+    margin: 12px;
+}
+.button3{
+    border-radius:  15px !important;
+    float: right;
+    margin: 12px;
+
+}
+.button4{
+    border-radius:  15px !important;
+    float: right;
+    margin: 12px;
+    
+}
+
+
+.search{
+    margin: 12px;
+    /* width: 60rem !important;
+    height: 3rem !important; */
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2.5px !important;
+    max-width: 600px;
+}
+::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+.mian_section{
+    width: 100%;
+    height:100%;
+}
+@media only screen and (max-width:1200px) {
+    .search{
+        max-width: none !important;
+    }
+    .navbar_2{
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    ::placeholder {
+        text-align: center;
+        font-size: 1.3rem;
+        
+    }
+    .hide__{
+        display: none !important;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        right: inherit;
+    }
+    .icon{
+        position: relative;
+        right: -7rem;
+    }
+    
+}
+@media only  screen and (max-width:517px){
+    .navbar_2{
+        height: 25% !important;
+    }
+    .icon{
+        position: absolute;
+        right: 6rem !important;
+    }
+
+    
+    
+}
+.div1{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+.box{
+    width: 20rem;
+    height: 30rem;
+    margin: 0rem 3rem ;
+    border-radius: 1rem;
+}
+.titles{
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    display: block;
+    font-size: 1.7rem;
+
+}
+.a_see_more{
+    bottom: 10px;
+    right: 10px ;
+
+}
+.a_buy_now{
+    bottom: 10px;
+    left: 10px ;
+}
+.name{
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+
+}
+.pay{
+        text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+
+}
+@media only screen and (min-width:1070px) {
+    .img{
+
+        margin-left: 2rem;
+    }
+}
+
+.next_btn{
+    width: 4rem !important;
+    height:4rem !important;
+    background-color: black !important ;
+    border-radius: 50% !important ;
+    display: flex !important ;
+    justify-content: center !important;
+    align-items: center !important;
+
+    position: absolute;
+    top: 12rem;
+    left: 7rem;
+}
+.icon_1{
+    font-size: 1.7rem !important;
+}
+.last_btn{
+    width: 4rem !important;
+    height:4rem !important;
+    background-color: black !important ;
+    border-radius: 50% !important ;
+    display: flex  ;
+    justify-content: center !important;
+    align-items: center !important;
+
+    position: absolute;
+    top: 12rem;
+    right: 7rem;
+    
+}
+@media only screen and (max-width:1440px){
+    .last_btn{
+        bottom: 3rem;
+        top: auto;
+        right: 10rem;
+
+
+    }
+    .next_btn{
+        bottom: 3rem;
+        top: auto;
+        left: 10rem;
+    }
+}
+@media  only screen and (max-width:900px) {
+    .div1{
+        width: 100% !important;
+        height: auto;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .box{  
+        margin: 1rem auto;
+        max-width: 1280px;
+        width: 60%;
+        height: auto !important;
+
+    }
+    .img{
+        max-width: none !important;
+        width: 100%;
+        height: auto;
+    }
+    .last_btn{
+        margin: 1rem auto;
+
+
+    }
+    .next_btn{
+        margin: 1rem auto;
+
+    }
+    .box3{
+        margin-bottom: 8rem !important;
+    }
+    .last_btn{
+        bottom: 1rem;
+        top: auto;
+        right: 10rem;
+
+
+    }
+    .next_btn{
+        bottom: 1rem;
+        top: auto;
+        left: 10rem;
+    }
+}   
+.signup{
+    width: 50%;
+    height: 50%;
+
+}
+
+
