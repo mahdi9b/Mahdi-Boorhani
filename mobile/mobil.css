@@ -1,0 +1,111 @@
+.fix{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}@media(min-width:600px){
+    #bt{
+        position: relative;
+        top: 30px;
+    }
+}
+.flex-m{
+    justify-content: center  !important;
+}
+.item.active .icon{
+    transform: rotate(180deg);
+}
+.bet{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center ;
+}
+.container{
+    width: 100% !important;
+}
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.user_add{
+    position: fixed;
+    bottom: -70vh;
+    z-index: 1000;
+
+    height: 70vh;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+    
+
+    margin-bottom: 0 !important;}
+
+.Add_user_btn.show{
+    bottom: 0;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px !important;
+    
+}
+.mianl{
+    border-radius: 40px !important;
+    margin: auto auto !important;
+    width: 60%;
+    height: 57%
+    
+}
+.h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    font-family:myFirstFont;
+}
+.h2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-family:myFirstFont;
+}
+.h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 165px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-family:myFirstFont;
+}
+.h4{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:200px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    font-family:myFirstFont;
+}
+.h5{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:235px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    font-family:myFirstFont;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/MounleyDiscket-7BVow.otf);
+  }

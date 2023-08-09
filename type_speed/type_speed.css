@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+    
+
+}
+.color{
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1px;
+
+}
+.like{
+    background-color: bisque;
+    border: 4rem gray;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1px;
+
+}
