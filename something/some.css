@@ -12,6 +12,7 @@ width: 100%;
     position: relative;
     top: 0;
     margin: 0;
+    margin-bottom: 10px;
 }
 .navbar_2{
     width: 100%;
@@ -245,6 +246,8 @@ width: 100%;
     justify-content: center;
     flex-direction: row;
     position: relative;
+    transition: all ease 1s ;
+    
 }
 .box{
     width: 20rem;
@@ -384,4 +387,55 @@ width: 100%;
 
 }
 
+.sign_up_mian{
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: -500rem;
+    z-index: 1000;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    transition: all ease 0.3s ;
+    margin-left: 10%;
+    margin-right: 10%;
 
+}
+.backgrounds{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.submit{
+    background-color: black !important;
+     border-radius: 3rem !important;
+    width: 7cqb;
+
+}
+.showing{
+    top: 10% !important;
+}
+.x{
+    padding: 0 !important;
+}
+.sign_up_mian_signin{
+        width: 80%;
+    height: 80%;
+    position: fixed;
+    top: -100rem;
+    z-index: 1000;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    transition: all ease 0.3s ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pos{
+    position: relative;
+    top: 6px;
+}

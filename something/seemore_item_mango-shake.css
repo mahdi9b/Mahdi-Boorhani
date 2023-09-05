@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Mahdi;
+    src: url(../font/Vazir-Thin.ttf);
+}
+*{
+    font-family: Mahdi;
+    box-sizing: border-box;
+}
+.mian{
+  max-width: 1100px !important;
+  width: 100% !important;
+  height:auto;
+  background-color: white !important;
+  position: fixed;
+  top: 10%;
+
+  left: 0px;
+  right: 0px;
+  margin: auto !important;
+  border-radius: 5rem;
+  z-index: 1;
+
+
+    
+}
+.body{
+    background-image:url(../img/coffee-g99ab5609b_1920.png);
+}
+.img{
+    width: 70%;
+    height: auto;
+}
+.order{
+    margin-top: 4rem;
+}
+h1{
+    font-size: 3rem !important;
+    text-align: center;
+}
+.compound{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.price2{
+    color: red; 
+    font-size: 1.2rem;
+}
+.price1{
+    font-size:2rem;
+    text-align: center;
+}
+/* .btn1{
+    width: 60%;
+    border-radius: 1.5rem !important;
+    margin: 10px 20%;
+    text-shadow: 1rem;
+    background-color: white !important;
+    font-size: 1.6rem !important;
+} */
+.btn2{
+    width: 60%;
+    border-radius: 1.5rem !important;
+    margin: 30px 20%;
+    background-color: white !important;
+    font-size: 1.7rem !important;
+
+}
+
+#home {
+    clip-path: url(#cache);
+  }
+  
+  #red {
+    fill: none;
+    opacity: 0.15;
+    stroke: #CE1B5F;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+  }
+  
+  #blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #06A1C4;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #light-blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #06A1C4;
+    stroke-width: 6;
+    stroke-miterlimit:10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation: draw 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;    
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+   }
+      }
+  
+  @keyframes show {
+    0% {
+      opacity: 0.15;
+   }
+    50% {
+      opacity: 0.2;
+   }
+    100% {
+      opacity: 0.15;
+   }
+      }
